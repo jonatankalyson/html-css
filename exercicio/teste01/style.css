@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "love" ;
+    src: url(fonts/PLAYFUL\ ALPHABET_demo.otf)format("opentype");
+    font-weight: normal;
+    font-style: normal;
+    @font-face {
+        font-family:"pah" ;
+        src: url(fonts/CHERI___.TTF)format("truetype");
+    }
+   
+   
+
+
+}
+*{
+    font-family: "love", sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right, #A69C14, #F2E205, #EAF205)
+}
+
+main{
+    background-color: #0051ffab;
+    margin: auto;
+    width: 600px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #0d0d0dd7;
+
+}
+p{
+    text-align: justify;
+    text-emphasis-color: #0D0D0D;
+   margin: auto;
+   
+    
+}
+
+h1{
+    text-shadow: #756f17ad;
+    text-align: center;
+    color: #A69C14;
+    font-family: "love", sans-serif;
+    border: #0D0D0D;
+    border-width: 5px;
+    border-style: solid;
+    margin: auto;
+    padding: auto;
+    border-radius: 10px;
+}
+.principal{
+    background-color: #3400a3c2;
+   
+}
+#principal{
+     background-color: #3400a3c2;
+}
+div > p{
+    display: none;
+}
+div:hover{
+    color: #f0c20cb4;
+}
+div:hover > p{
+    display: block;
+    color: #3400a3c2;
+    background-color: yellow;
+    width: 250px;
+
+
+}
+p{
+    font-family: "pah", sans-serif;
+}
+a{
+    color: yellow;
+    text-decoration: none;
+
+
+}
+a:active{
+    color: #3400a3c2;
+
+}
+a:hover{
+    color: #3400a3c2;
+    text-decoration: underline;
+}
+

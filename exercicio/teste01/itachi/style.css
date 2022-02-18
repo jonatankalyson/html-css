@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "love" ;
+    src: url(fonts/PLAYFUL\ ALPHABET_demo.otf)format("opentype");
+    font-weight: normal;
+    font-style: normal;
+
+}
+*{
+    font-family: "love",  sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right, #A69C14, #F2E205, #EAF205)
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    width: 600px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #0d0d0dd7;
+
+}
+p{
+    text-align: justify;
+    text-emphasis-color: #0D0D0D;
+    
+}
+
+h1{
+    text-shadow: #756f17ad;
+    text-align: center;
+    color: #A69C14;
+    font-family: 'love', sans-serif;
+}
+.principal{
+    background-color: #3400a3c2;
+}
