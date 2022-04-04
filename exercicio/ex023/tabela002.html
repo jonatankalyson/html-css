@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+           
+        
+            
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead{
+            background-color: grey;
+            color: white;
+
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: grey;
+        }
+
+        tbody  tr:nth-child(2n){
+            background-color: lightgray;
+        }
+        tfoot{
+            background-color: grey;
+            color: white;
+
+        }
+        .num{
+            text-align: right;
+            width: 50px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>uso de tabela grande</h1>
+    <table>
+       <thead>
+           <tr>
+               <th scope="col"> estado</th>
+               <th scope="col">populaçao</th>
+           </tr>
+
+       </thead>
+       <tbody>
+           <tr>
+               <td>sao paulo</td>
+               <td class="num">46.999.045</td>
+           </tr>
+           <tr>
+               <td>minas gerais </td>
+               <td class="num">22.222.045</td>
+           </tr>
+           <tr>
+               <td>rio de janeiro</td>
+               <td class="num">24.220.245</td>
+           </tr>
+           <tr>
+               <td>bahia</td>
+               <td class="num">14 016 906</td>
+           </tr>
+           <tr>
+               <td>parana</td>
+               <td class="num">10 444 526</td>
+           </tr>
+           <tr>
+              <td>rio grande do sul</td> 
+              <td class="num">10 693 929</td>
+           </tr>
+           <tr>
+            <td>sao paulo</td>
+            <td class="num">46.999.045</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">46.999.045</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">46.999.045</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">46.999.045</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">46.999.045</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">46.999.045</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">46.999.045</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">46.999.045</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">46.999.045</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">46.999.045</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">46.999.045</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">46.999.045</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">46.999.045</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">46.999.045</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">46.999.045</td>
+            </tr>
+
+       </tbody>
+       <tfoot>
+           <tr>
+               <th scope="row">total de ahabitantes</th>
+               <td class="num"><strong>92.555.900</strong></td>
+           </tr>
+
+       </tfoot>
+
+    </table>
+    
+</body>
+</html>
