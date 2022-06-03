@@ -1,0 +1,67 @@
+header{
+    height: 250px;
+    background-color: black;
+}
+header > h1{
+    color: goldenrod;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 15px;
+
+}
+header > nav{
+   padding-top: 160px;
+}
+header > nav > a{
+    padding: 5px;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+header > nav > a:hover{
+    background-color: rgba(128, 128, 128, 0.849);
+    text-decoration: underline;
+    color: goldenrod;
+    transition: 0.5s;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    min-width: 320px;
+    max-width: 800px;
+    background-color: gray;
+    margin: auto;
+    border-radius: 15px;
+
+    
+    
+    
+}
+main >p{
+    line-height: 2em;
+    font-size: 1em;
+    padding: 10px;
+}
+main >h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 10px;
+}
+.especial {
+   background-image:linear-gradient(to right, black, gray);
+    
+}
+img{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+
+
+
+    
+}
+
+
+

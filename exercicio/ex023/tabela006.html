@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+        .destaque{
+            background-color: rgb(123, 255, 47);
+        }
+        col.nome{
+            background-color: greenyellow;
+        }
+        col.sexo{
+            background-color: yellow;
+        }
+        col.idade{
+            background-image: linear-gradient(to right, blue, yellow);
+        }
+        col.prof{
+            background-image: linear-gradient(to bottom, green, red);
+        }
+        caption{
+            color: rgb(255, 0, 200);
+            
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="nome">
+            <col class="sexo">
+            <col class="idade">
+            <col class="prof"> 
+        </colgroup>
+        <caption>cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">sexo</th>
+            <th scope="col">idade</th>
+            <th scope="col">profissao</th>
+        </tr>
+        <tr>
+            <td>ana maria</td>
+            <td>f</td>
+            <td>25</td>
+            <td>jornalista</td>
+        </tr>
+        <tr>
+            <td>joao</td>
+            <td>m</td>
+            <td>22</td>
+            <td>jornalista</td>
+        </tr>
+        <tr>
+            <td>ana </td>
+            <td>f</td>
+            <td>21</td>
+            <td>Estudante</td>
+        </tr>
+        <tr>
+            <td>carol</td>
+            <td>f</td>
+            <td>23</td>
+            <td>cantora</td>
+        </tr>
+        <tr>
+            <td>lucas</td>
+            <td>m</td>
+            <td>25</td>
+            <td>lutador</td>
+        </tr>
+    </table>
+</body>
+</html>
