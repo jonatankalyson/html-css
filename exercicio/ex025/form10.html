@@ -10,11 +10,22 @@
     <form action="cadastro.php" method="pos">
         <p>
             <label for="iano"></label>
-            <input type="number" name="ano" id="inao" required>
+            <input type="number" name="ano" id="iano" required min="1900" max="2000" oninput="calculo()">
+            
+        </p>
+        <p>
+            <label for="iiano">sua idade e :</label>
+            <output id="iiano"></output>
         </p>
         <p><input type="submit" value="enviar">
             <input type="reset" value="">
         </p>
+        <script>
+            function calculo(){
+                let atual = new Date().getFullYear()
+                iiano.innerHTML = Number(atual) - Number(iano.value)
+            }
+        </script>
     </form>
 </body>
 </html>
