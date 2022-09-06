@@ -16,4 +16,5 @@ html, body{
 h1{
     color: aliceblue;
     text-shadow: 3px 3px 0px #0a1564;
+    text-align: center;
 }
